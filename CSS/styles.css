@@ -886,6 +886,15 @@ input[pattern]:invalid + label::after {
     grid-column: 2;
     /* grid-row: 2; */
    }
+   .contact_div button a {
+    color: #FFFFFF;
+    text-decoration: none;
+   }
+   .contact_div button a:hover {
+  background-color: #FDFBFB;
+  color: #AD8666;
+  transition: 0.3s;
+}
 .contact-buttons {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
