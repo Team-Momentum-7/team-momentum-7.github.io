@@ -1168,7 +1168,11 @@ input[pattern]:invalid + label::after {
    } 
    .contact_div {
     margin: 2px;
+    padding-top: 35px;
    }
+  .contact-container-hours p {
+    margin-bottom: 5%;
+  }
 
    /* Horse for Sale */
    .available-horses {
@@ -1338,15 +1342,15 @@ input[pattern]:invalid + label::after {
 
    /* Contact */
   .contact_div {
-    margin-top: 10%;
+    margin-top: 20px;
     gap: 3rem;
-    padding: 2rem;
+    padding: 1rem;
   }
   #hours {
     font-size: 1.5rem;
   }
   .contact-container-hours p {
-    margin-bottom: 5%;
+    margin-bottom: 2%;
   }
   .contact_horse {
     margin-top: 10%;
