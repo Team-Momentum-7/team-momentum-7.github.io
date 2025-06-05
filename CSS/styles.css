@@ -1192,13 +1192,12 @@ input[pattern]:invalid + label::after {
    .safety-item img, .safety-item p  {
     max-width: 400px;
    }
-   .maintenance-columns {
+   /* .maintenance-columns {
     flex-wrap: nowrap;
     flex-direction: column;
-   }
+   } */
    #vet {
     display: flex;
-    order: 1;
     flex-direction: column-reverse;
     
    }
@@ -1376,7 +1375,6 @@ input[pattern]:invalid + label::after {
     justify-self: center;
   }
   .maintenance-columns {
-    flex-direction: column;
     padding-bottom: 20px;
   }
   #care, #vet, #nutrition {
